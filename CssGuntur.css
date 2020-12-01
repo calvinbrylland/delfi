@@ -1,0 +1,646 @@
+/*navbar*/
+.navbar {
+    background-color: rgba(90, 187, 10, 0.911);
+}
+
+.navbar-brand img{
+    height: 80px;
+    margin: none;
+    padding: none;
+    opacity: .7;
+}
+.navbar-brand img:hover{
+    height: 80px;
+    margin: none;
+    padding: none;
+    opacity: 1;
+}
+
+.active{
+    border-bottom: #ffffff 2px solid;
+}
+
+.navbar-nav a{
+    font-size: 30px !important;
+    color: rgb(8, 8, 8);
+    margin-bottom: 3px;
+    margin-left: 40px;
+}
+
+.navbar-nav a:hover{
+    font-size: 30px;
+    color: rgb(12, 12, 12);
+    border-bottom: 2px black solid;
+    margin-bottom: -3px;
+}
+
+.dropdown-item{
+    margin-bottom: 2px;
+}
+
+/*jumbotron*/
+.jumbotron{
+    background-image:url("img/jumbotron.jpg");
+    object-fit: cover;
+    height: 500px;
+
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+.ourstory{
+    background-image:url("img/jumbotron.jpg");
+    object-fit: cover;
+    height: 10px;
+
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.circle{
+    border-radius: 30px;
+}
+
+.jumbotron .container{
+    position: relative;
+    left: 30px;
+    
+}
+/*carousel*/
+.carousel-inner img{
+    width: 100%;
+    height: 500px;
+}
+.carousel .carousel-item {
+    height: 500px;
+  }
+  
+  .carousel-item img {
+      top: 0;
+      left: 0;
+      min-height: 500px;
+  }
+.carousel-caption{
+    border: black 2px solid;
+    background-color: rgba(0, 0, 0, 0.425);
+    width: 100%;
+    margin-left: -77px;
+}
+
+/*middle main*/
+.box{
+    border-radius: 20px;
+}
+.carding{
+    margin-top: 30px;
+    margin-bottom: -40px;
+}
+.carding:hover{
+    opacity: 1;
+}
+.out{
+    background-color: rgba(0, 0, 0, 0.356);
+    position: relative;
+    z-index: 1;
+    width: 209px;
+    height: 128px;
+    bottom: 170px;
+}
+.out:hover{
+    background-color: rgba(0, 0, 0, 0.678);
+}
+.in{
+    background-color: none;
+    position: relative;
+    z-index: 1;
+    height: 128px;
+    border: white 2px solid;
+}
+
+.story-panel{
+    background-color: rgb(176, 231, 48);
+    height: 580px;
+}
+.firstlay{
+    background-color: rgb(176, 231, 48);
+    display: block;
+    height: auto;
+    margin-top: -190px;
+}
+.firstlay img{
+    width: 100%;
+}
+.firstlay p{
+    font-size: 12px;
+}
+
+.box-contact{
+    height: 450px auto;
+    border: rgba(122, 122, 122, 0.568) solid 2px;
+    background-color: white;
+}
+.box-contact h1{
+    font-size: 23px;
+}
+#titleCU{
+    margin-top: 39px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.527);
+    width: auto;
+}
+
+.box-contact p{
+    color: black;
+    font-weight: 300;
+
+}
+
+.grid{
+    margin-top: 15px;
+}
+
+.green{
+    background-color: rgba(0, 128, 0, 0.644);
+    height: 100px;
+    padding-top: 10px;
+}
+
+.choco{
+    background-color: rgb(117, 65, 17);
+    height: 50px;
+    padding-top: 10px;
+}
+#form{
+    color: black;
+    font-size: 20px;
+}
+/* Sign In*/
+.signin{
+    margin: 25px auto;
+    width: 500px;
+    display: table;
+}
+/*Map*/
+
+/*utility*/
+.jumbotron .display-4{
+    color: rgb(137, 233, 12);
+    background-color: rgba(0, 0, 0, 0.247);
+    width: 310px;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.jumbotron  .lead{
+    color: rgb(248, 248, 248);
+    background-color: rgba(0, 0, 0, 0.247);
+    width: 415px;
+}
+.tombol{
+    background-color: white;
+    border: none;
+    color: green;
+    margin: 1px 1px 1px 1px;
+}
+.tombol:hover{
+    background-color: white;
+    border: 2px solid green;
+    color: green;
+    margin: -1px -1px -1px -1px;
+}
+.carding h5{
+    font-size: 2em;
+    color: white;
+}
+.box a{
+    text-decoration: none;
+}
+
+.jumbotron .display-4{
+    color: rgb(137, 233, 12);
+    background-color: rgba(0, 0, 0, 0.247);
+    width: 310px;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.jumbotron  .lead{
+    color: rgb(248, 248, 248);
+    background-color: rgba(0, 0, 0, 0.247);
+    width: 415px;
+}
+
+.story-panel .container .row .col h1{
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 0px;
+    width: 30;
+  
+}
+.story-panel .container .row .col .lead{
+    color: black;
+    font-weight: 200;
+}
+.story-panel .container .row .col img{
+    height: 301px;
+    width: 455px;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 0px 4px 2px 2px black;
+}
+.btnstory{
+    background-color: rgba(192, 125, 24, 0.815);
+    border: rgba(0, 128, 0, 0.363) 1px solid;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    
+}
+.btnstory:hover{
+    background-color: rgb(236, 195, 12);
+}
+
+.send{
+    background-color: rgb(92, 185, 38);
+    position: relative;
+    top: -3px;
+}
+.send:hover{
+    background-color: rgb(94, 255, 0);
+}
+
+.card-title a{
+    color: rgb(59, 90, 14);
+    text-decoration: none;
+}
+.card-title a:hover{
+    color: rgb(49, 230, 18);
+
+}
+.card-text{
+    color: rgb(5, 5, 5);
+    font-weight: 400;
+    
+}
+
+.list-group a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+.list-group-item{
+    background-color: rgba(69, 151, 52, 0.527);
+}
+.list-group-item:hover{
+    background-color: rgba(51, 235, 14, 0.89);
+}
+
+.best{
+    border: solid black 2px;
+    background-color: red;
+    border-radius: 120cm;
+    width: 50px;
+    height: 50px;
+    padding: 4px 4px 4px 4px;
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+    
+    z-index: 1;
+
+}
+
+.tombolorder{
+    background-color: rgb(240, 169, 37);
+    text-decoration: none;
+}
+.tombolorder:hover{
+    background-color: rgb(255, 115, 0);
+    text-decoration: none;
+}
+
+#user,#pass{
+    background-color: rgb(255, 255, 255);
+    outline: none;
+    color: rgb(0, 0, 0);
+}
+
+
+
+@media (min-width: 992px) {
+/*jumbotron*/
+.jumbotron{
+    background-image:url("img/jumbotron.jpg");
+    object-fit: cover;
+    height: 500px;
+}
+
+.jumbotron .container{
+    position: relative;
+    left: 30px;
+    
+}
+/*carousel*/
+.carousel-caption{
+    border: black 2px solid;
+    background-color: rgba(0, 0, 0, 0.425);
+    width: 100%;
+    margin-left: -123px;
+}
+
+/*box contact*/
+.box-contact{
+    height: 300px;
+    border: rgba(122, 122, 122, 0.568) solid 2px;
+    background-color: white;
+}
+
+
+/*utility*/
+.display-4{
+    color: rgb(137, 233, 12);
+    background-color: rgba(0, 0, 0, 0.247);
+    width: 635px;
+    margin-bottom: 100px;
+}
+.lead{
+    color: rgb(248, 248, 248);
+    background-color: rgba(0, 0, 0, 0.247);
+    width: 475px;
+}
+.tombol{
+    background-color: white;
+    border: none;
+    color: green;
+    margin: 1px 1px 1px 1px;
+}
+.tombol:hover{
+    background-color: white;
+    border: 2px solid green;
+    color: green;
+    margin: -1px -1px -1px -1px;
+}
+.story-panel .container .row .col h1{
+    color: black;
+    font-weight: bold;
+    font-size: 70px;
+    margin-bottom: 0px;
+    width: 400px;
+  
+}
+.story-panel .container .row .col p{
+    color: rgb(44, 44, 44);
+    font-weight: 600;
+    font-size: 20px;
+    width: 300px;
+}
+.story-panel .container .row .col img{
+    height: 380px;
+    width: 650px;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 0px 4px 2px 2px black;
+    margin-left: -40px;
+}
+
+.firstlay{
+    background-color: rgb(176, 231, 48);
+    display: block;
+    height: auto;
+    margin-top: -190px;
+}
+.firstlay img{
+    width: auto;
+    border: black 1px solid;
+    border-radius: 15px;
+    box-shadow: 0px 1px 3px 3px black;
+}
+.firstlay p{
+    font-size: 20px;
+}
+.box-contact h1{
+    font-size: 2.5em;
+}
+#titleCU{
+    margin-top: 39px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    width: auto;
+}
+#lastcolgreen{
+    margin-top: 0px;
+    margin-left: 3px;
+}
+
+.send{
+    background-color: rgb(92, 185, 38);
+    position: relative;
+    left: -150px;
+    top:-25px;
+}
+
+}
+.login-box {
+    width: 100%;
+    margin: auto;
+    max-width: 525px;
+    min-height: 670px;
+    position: relative;
+    background: white;
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, .24), 0 17px 50px 0 rgba(0, 0, 0, .19)
+}
+
+.login-snip {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding: 90px 70px 50px 70px;
+    background-color: rgba(125, 235, 35, 0.911);
+    
+}
+
+.login-snip .login,
+.login-snip .sign-up-form {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    transition: all .4s linear
+}
+
+.login-snip .sign-in,
+.login-snip .sign-up,
+.login-space .group .check {
+    display: none
+}
+
+.login-snip .tab,
+.login-space .group .label,
+.login-space .group .button {
+    text-transform: uppercase;
+}
+
+.login-snip .tab {
+    font-size: 22px;
+    margin-right: 15px;
+    padding-bottom: 5px;
+    margin: 0 15px 10px 0;
+    display: inline-block;
+    border-bottom: 2px solid transparent
+}
+
+.login-snip .sign-in:checked+.tab,
+.login-snip .sign-up:checked+.tab {
+    color: #fff;
+    border-color: #eff16d
+}
+
+.login-space {
+    min-height: 345px;
+    position: relative;
+    perspective: 1000px;
+    transform-style: preserve-3d
+}
+
+.login-space .group {
+    margin-bottom: 15px
+}
+
+.login-space .group .label,
+.login-space .group .input,
+.login-space .group .button {
+    width: 100%;
+    color: rgb(255, 255, 255);
+    display: block
+}
+
+.login-space .group .input,
+.login-space .group .button {
+    border: none;
+    padding: 15px 20px;
+    border-radius: 25px;
+    background: rgba(255, 255, 255, .1)
+}
+
+.login-space .group input[data-type="password"] {
+    -webkit-text-security: circle
+}
+
+.login-space .group .label {
+    color: rgb(34, 32, 32);
+    font-size: 12px
+}
+
+.login-space .group .button {
+    background: #ffee01;
+    outline: none;
+}
+
+.login-space .group .button a{
+    text-decoration: none;
+    text-align: center;
+}
+
+.login-space .group .button:hover {
+    background: #e0d208
+}
+
+
+.login-space .group label .icon {
+    width: 15px;
+    height: 15px;
+    border-radius: 2px;
+    position: relative;
+    display: inline-block;
+    background: rgba(255, 255, 255, .1)
+}
+
+.login-space .group label .icon:before,
+.login-space .group label .icon:after {
+    content: '';
+    width: 10px;
+    height: 2px;
+    background: #fff;
+    position: absolute;
+    transition: all .2s ease-in-out 0s
+}
+
+.login-space .group label .icon:before {
+    left: 3px;
+    width: 5px;
+    bottom: 6px;
+    transform: scale(0) rotate(0)
+}
+
+.login-space .group label .icon:after {
+    top: 6px;
+    right: 0;
+    transform: scale(0) rotate(0)
+}
+
+.login-space .group .check:checked+label {
+    color: #fff
+}
+
+.login-space .group .check:checked+label .icon {
+    background: #ffbc05
+}
+
+.login-space .group .check:checked+label .icon:before {
+    transform: scale(1) rotate(45deg)
+}
+
+.login-space .group .check:checked+label .icon:after {
+    transform: scale(1) rotate(-45deg)
+}
+
+.login-snip .sign-in:checked+.tab+.sign-up+.tab+.login-space .login {
+    transform: rotate(0)
+}
+
+.login-snip .sign-up:checked+.tab+.login-space .sign-up-form {
+    transform: rotate(0)
+}
+
+*,
+:after,
+:before {
+    box-sizing: border-box
+}
+
+.clearfix:after,
+.clearfix:before {
+    content: '';
+    display: table
+}
+
+.clearfix:after {
+    clear: both;
+    display: block
+}
+
+
+.hr {
+    height: 2px;
+    margin: 60px 0 50px 0;
+    background: rgba(255, 255, 255, .2)
+}
+
+.foot {
+    text-align: center
+}
+
+.card-log {
+    width: 500px;
+    left: 10%;
+}
+body {
+    margin: 0;
+    background: #c8c8c8;
+}
+
+::placeholder {
+    color: #30c55d
+}
+

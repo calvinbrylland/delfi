@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&family=Roboto:wght@300&family=Sansita+Swashed&display=swap" rel="stylesheet">  
+    <title>Delfi</title>
+    <link rel="icon" href="img/Delfi logo.png">
+
+    <!-- CSS-->
+    <link rel="stylesheet" href="CSSLayout.css">
+
+
+    <!-- JS-->
+
+
+
+    <style>
+       /* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+} 
+        
+    </style>
+
+  </head>
+  <body>
+      <!-- navbar-->
+      <nav class="navbar sticky-top navbar-expand-lg navbar-light">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="img/Logo delfi.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="index.html">Home </a>
+              <a class="nav-link active" href="catalogue.html">Catalogue</a>
+              <a class="nav-link" href="ourstory.html">Our Story</a>
+              <a class="nav-link" href="contactus.html">Contact Us</a>
+              <a class="nav-link " href="account.html">Log In</a>
+
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!--end navbar-->
+      
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item"><a href="catalogue.html">Catalogue</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Delfia flower</li>
+        </ol>
+      </nav>
+      
+
+        
+        <!-- Page Content -->
+  <div class="container">
+
+    <div class="row">
+        <div class="col-lg-3 ">
+            <img class="card-img-top img-fluid" src="img/blueGreen.jpg" alt="">
+        </div>
+
+      <div class="col-lg-9 ">
+        <div class="card mt-4">
+          <div class="card-body">
+            <h3 class="card-title">Delfia flower</h3>
+            <h4>RP 72.000</h4>
+            <p class="card-text">Delfia flower berwarna biru dan hijau dengan aroma seperti mawar dan melati asli bulgaria.</p>
+            
+             <!-- Tab links -->
+            <div class="tab">
+                <button class="tablinks" onclick="openCity(event, 'pdet')">Plant Detail</button>
+                <button class="tablinks" onclick="openCity(event, 'pcare')">Plant Care</button>
+                <button class="tablinks" onclick="openCity(event, 'ship')">Shipping & Delivery info</button>
+            </div>
+            
+            <!-- Tab content -->
+            <div id="pdet" class="tabcontent">
+                <h3>Botanical Name:</h3> <h6>Epipremnum aureum</h6>
+                <h3>Common Name:</h3><h6>Delfia flower</h6>
+                <h3>Origin:</h3>
+                <h6>Australia</h6>
+            </div>
+            
+            <div id="pcare" class="tabcontent">
+                <h3>Perawatan</h3>
+                <ul>
+                    <li><h3>Cahaya:</h3><h6>Cahaya tidak langsung; dapat mentolerir cahaya yang lebih rendah</h5></li>
+                </ul>
+                <ul>
+                    <li><h3>Air:</h3><h6>Ketika 1 "bagian atas tanah kering untuk disentuh; jangan biarkan tanah terlalu basah atau kering lebih dari satu hari atau tanaman akan bereaksi buruk</h5></li>
+                </ul>
+                <ul>
+                    <li><h3>Temperature:</h3><h6>60-80 °F</h5></li>
+                </ul>
+            </div>
+            
+            <div id="ship" class="tabcontent">
+                <h3>Tanaman kami dikemas dengan hati-hati dan dikirim dari rumah kaca kami ke pintu Anda.</h3>
+                <ul>
+                    <li>Semua pesanan di atas Rp 300.000 gratis kirim</li>
+                    <li>Waktu pengiriman standar kami adalah 2-4 hari kerja</li>
+                    <li>Pengiriman Standar adalah Rp 30.000</li>
+                    <li>Kami juga menawarkan pengiriman hari berikutnya dan Pengiriman Minggu</li>
+                </ul>
+            </div> 
+  
+            <a href="cart.html" class="btn tombolorder">Order Now</a>
+          </div>
+        </div>
+        <!-- reviewscard -->
+
+        <div class="card card-outline-secondary my-4">
+          <div class="card-header">
+            Product Reviews
+          </div>
+          <div class="card-body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis et enim aperiam inventore, similique necessitatibus neque non! Doloribus, modi sapiente laboriosam aperiam fugiat laborum. Sequi mollitia, necessitatibus quae sint natus.</p>
+            <small class="text-muted">Posted oleh Guntur on 7/7/17</small>
+            <hr>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis et enim aperiam inventore, similique necessitatibus neque non! Doloribus, modi sapiente laboriosam aperiam fugiat laborum. Sequi mollitia, necessitatibus quae sint natus.</p>
+            <small class="text-muted">Posted oleh Guntur on 7/7/17</small>
+            <hr>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis et enim aperiam inventore, similique necessitatibus neque non! Doloribus, modi sapiente laboriosam aperiam fugiat laborum. Sequi mollitia, necessitatibus quae sint natus.</p>
+            <small class="text-muted">Posted oleh Guntur on 7/7/17</small>
+            <hr>
+            <a href="#" class="btn btn-success">Leave a Review</a>
+          </div>
+        </div>
+        <!--end reviewscard-->
+
+      </div>
+      <!--end col-lg-9 -->
+
+    </div>
+
+  </div>
+  <!--en container -->
+
+
+      <!-- Footer -->
+      <footer class="page-footer font-small " style="width: 100%;background-color: rgb(37, 36, 56); color: white;" >
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">
+          <h4>© 2020 Copyright: Beni,Calvin,Guntur</h4>
+        </div>
+        <!-- Copyright -->
+
+      </footer>
+      <!-- Footer -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script>
+        function openCity(evt, cityName) {
+    // Declare all variables
+    var i, tabcontent, tablinks;
+  
+    // Get all elements with class="tabcontent" and hide them
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+  
+    // Get all elements with class="tablinks" and remove the class "active"
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+  
+    // Show the current tab, and add an "active" class to the button that opened the tab
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+  } 
+    </script>
+
+
+
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>

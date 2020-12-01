@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&family=Roboto:wght@300&family=Sansita+Swashed&display=swap" rel="stylesheet">  
+    <title>Delfi</title>
+    <link rel="icon" href="img/Delfi logo.png">
+
+    <!-- CSS-->
+    <link rel="stylesheet" href="CSSLayout.css">
+
+
+    <!-- JS-->
+
+    <script type="text/javascript">
+        function show_alert() {
+            alert("Billing Detail has been send to your Email! Please continue your payment before the due time!");
+            window.location.href = "catalogue.html";
+        }
+    </script>
+
+    <style>
+      
+        
+    </style>
+
+  </head>
+  <body>
+      <!-- navbar-->
+      <nav class="navbar sticky-top navbar-expand-lg navbar-light">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="img/Logo delfi.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="index.html">Home </a>
+              <a class="nav-link active" href="catalogue.html">Catalogue</a>
+              <a class="nav-link" href="ourstory.html">Our Story</a>
+              <a class="nav-link" href="contactus.html">Contact Us</a>
+              <a class="nav-link " href="account.html">Log In</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!--end navbar-->
+      
+      <div class="container" id="checkoutcont" >
+        <div class="py-5 text-center">
+          <img class="d-block mx-auto mb-1" src="img/Logo delfi.png" alt="" width="90" height="90">
+        </div>
+  
+        <div class="row" style="background-color: rgb(95, 204, 100); padding-top: 10px;border-radius: 30px;box-shadow: 0px 60px 120px 0px black;">
+          
+          <div class="col-md-12 order-md-1">
+            <h4 class="mb-3">Billing address</h4>
+            <form class="needs-validation" novalidate>
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <label for="firstName">First name</label>
+                  <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                  <div class="invalid-feedback">
+                    Valid first name is required.
+                  </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="lastName">Last name</label>
+                  <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                  <div class="invalid-feedback">
+                    Valid last name is required.
+                  </div>
+                </div>
+              </div>
+  
+              <div class="mb-3">
+                <label for="username">Username</label>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">@</span>
+                  </div>
+                  <input type="text" class="form-control" id="username" placeholder="Username" required>
+                  <div class="invalid-feedback" style="width: 100%;">
+                    Your username is required.
+                  </div>
+                </div>
+              </div>
+  
+              <div class="mb-3">
+                <label for="email">Email <span class="text-muted">(Optional)</span></label>
+                <input type="email" class="form-control" id="email" placeholder="YourEmail@machung.com">
+                <div class="invalid-feedback">
+                  Please enter a valid email address for shipping updates.
+                </div>
+              </div>
+  
+              <div class="mb-3">
+                <label for="address">Address</label>
+                <input type="text" class="form-control" id="address" placeholder="Where you lived, hey client?" required>
+              </div>
+  
+              <div class="row">
+                <div class="col-md-5 mb-3">
+                  <label for="country">Province</label>
+                  <select class="custom-select d-block w-100" id="country" required>
+                    <option value="">Choose here...</option>
+                    <option>East Java</option>
+                    <option>West Java</option>
+                    <option>Central Java</option>
+                    <option>Bali</option>
+                  </select>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <label for="state">City</label>
+                  <select class="custom-select d-block w-100" id="state" required>
+                    <option value="">Choose...</option>
+                    <option>Malang</option>
+                  </select>
+                </div>
+                <div class="col-md-3 mb-3">
+                  <label for="zip">Zip</label>
+                  <input type="text" class="form-control" id="zip" placeholder="" required>
+                </div>
+              </div>
+              <hr class="mb-4">
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="save-info">
+                <label class="custom-control-label" for="save-info">Save this address for next purchase</label>
+              </div>
+              <hr class="mb-4">
+  
+              <h4 class="mb-4">Payment</h4>
+  
+              <div class="d-block my-3">
+                <div class="custom-control custom-radio">
+                  <input id="credit" name="paymentMethod" type="radio" class="custom-control-input" checked required>
+                  <label class="custom-control-label" for="credit">Credit card</label>
+                </div>
+                <div class="custom-control custom-radio">
+                  <input id="debit" name="paymentMethod" type="radio" class="custom-control-input" required>
+                  <label class="custom-control-label" for="debit">Debit card</label>
+                </div>
+                <div class="custom-control custom-radio">
+                  <input id="paypal" name="paymentMethod" type="radio" class="custom-control-input" required>
+                  <label class="custom-control-label" for="paypal">Go-Pay</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <label for="cc-name">Name on card</label>
+                  <input type="text" class="form-control" id="cc-name" placeholder="" required>
+                  <small class="text-muted">Full name displayed on your credit/debit card</small>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="cc-number">Credit/debit card number</label>
+                  <input type="text" class="form-control" id="cc-number" placeholder="" required>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-3 mb-3">
+                  <label for="cc-expiration">Expiration</label>
+                  <input type="text" class="form-control" id="cc-expiration" placeholder="" required>
+                </div>
+                <div class="col-md-3 mb-3">
+                  <label for="cc-expiration">CVV</label>
+                  <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
+                </div>
+              </div>
+              <hr class="mb-4">
+            </form>
+            
+            <a id="tombolcheckout" class="btn btn-success btn-lg btn-block" href="catalogue.html" onclick="show_alert()"> Continue to checkout</a>
+          </div>
+ 
+          
+
+      <!-- Footer -->
+      <footer class="fixed-bottom page-footer font-small " style="width: 100%;background-color: rgb(37, 36, 56); color: white;" >
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">
+          <h4>© 2020 Copyright: Beni,Calvin,Guntur</h4>
+        </div>
+        <!-- Copyright -->
+
+      </footer>
+      <!-- Footer -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    
+
+
+
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
